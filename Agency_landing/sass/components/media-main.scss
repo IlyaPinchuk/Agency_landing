@@ -1,0 +1,142 @@
+@media (max-width: 1199.98px) {
+
+    main {
+        .yellow{
+            .wrap-form{
+                form{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+        .wrapper-main-box-1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .wrapper-right {
+                width: 100%;
+                padding: 0 15px;
+                text-align: center;
+            }
+
+            .wrapper-left {
+                margin-bottom: 50px;
+                width: 100%;
+                align-items: center;
+
+                .title {
+                    p {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        .product-wrapper {
+            .product-menu {
+                ul {
+                    li {
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper-main-box-1 {
+
+        .wrapper-left {
+            .title {
+                h2 {
+                    font-size: 30px !important;
+                    text-align: center;
+                }
+            }
+        }
+        .wrapper-right{
+            .box-item{
+                width: 100% ;
+            }
+        }
+
+
+    }
+
+    .product-wrapper {
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+        .text {
+            text-align: center;
+        }
+    }
+
+
+    .wrapper-meet-block {
+        .wrapper-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+
+            p {
+                width: 290px !important;
+                margin: 0 auto;
+                padding: 15px;
+            }
+        }
+
+        .wrapper-block {
+            div {
+                justify-content: center !important;
+
+                .block-1 {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+}
+.touch {
+  
+    div {
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                width: 320px !important;
+            }
+        }
+
+    }
+}
+.wrapper-title-block-2{
+    h3{
+        text-align: center;
+    }
+    p{
+        max-width: 300px !important;
+        padding: 15px;
+    }
+    .social{
+        li{
+            padding: 15px;
+        }
+    }
+}
